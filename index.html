@@ -5,19 +5,26 @@
 		<title>企业搜索</title>
 		  <meta name="Keywords" content="找工作,企业搜索,人工智能公司">
 		  <meta name="description" content=		"企业搜索为您展现前程无忧,51job,智联招聘,zhaopin.com,公司企业信息,方便您找工作,找公司.你可以搜索人工智能,大数据,物联网,一带一路,旅游等公司.">
-		  <base target="_blank">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+		 
+		 <base target="_blank">
 		  <style>
 
 		  body{font-family:"Microsoft YaHei";font-size:16px;text-align:center;}
-		  #all{width:728px;margin:0 auto;text-align:center;}
+		  #all{width:"100%";margin:0 auto;text-align:center;}
 		  .head{margin-bottom:30px;/* margin-top:30px;*/}
-		  .anniu{cursor:pointer;height:36px;vertical-align:middle;width:80px;background:#3385ff;border:none;color:#fff;font-size:16px;font-family: "Microsoft YaHei";margin-left:-3px;}
-		  .xiala1{cursor:pointer;height:36px;vertical-align:middle;width:120px;background:#3385ff;border:none;color:#fff;font-size:16px;font-family: "Microsoft YaHei";margin-left:-3px;}
-		  .xiala2{cursor:pointer;height:36px;vertical-align:middle;width:60px;font-size:16px;font-family: "Microsoft YaHei";margin-left:-3px;}
-		  .shuru{height:32px;vertical-align:middle;width:400px;margin-left:10px;font-size:16px;}
-		  .ad{width:728px;height:90px;border:solid 1px #f5f5f5;}
+		  .anniu{cursor:pointer;height:36px;vertical-align:middle;width:"10%";background:#3385ff;border:none;color:#fff;font-size:16px;font-family: "Microsoft YaHei";margin-left:-3px;}
+		  .xiala1{cursor:pointer;height:36px;vertical-align:middle;width:"20%";background:#3385ff;border:none;color:#fff;font-size:16px;font-family: "Microsoft YaHei";margin-left:-3px;}
+		  .xiala2{cursor:pointer;height:36px;vertical-align:middle;width:"20%";font-size:16px;font-family: "Microsoft YaHei";margin-left:-3px;}
+		  .shuru{height:32px;vertical-align:middle;width:"40%";margin-left:10px;font-size:16px;}
+		  .ad{width:"100%";height:90px;border:solid 1px #f5f5f5;}
 		  </style>
 		  <script language="javascript">
+		  
+	}
+		  
+		  
+		  
 			function citySet()
 			{
 				if(document.getElementById("city").value == "自定义")
@@ -43,8 +50,8 @@
 														document.getElementById("city").value + " " + 
 														document.getElementById("input").value; 
 			}
-
-		</script>
+			
+		</script>	
 	</head>
 	<body>
 	
@@ -57,8 +64,8 @@
 	<div class="sousuo">
 		 <form action="https://www.baidu.com/s" method="get" target="_blank">
 			<select title="选择数据源" class="xiala1" id="source" >
-				<option value="inurl:jobs.51job.com/all/co" selected="selected">前程无忧(51job.com)</option>
-				<option value="inurl:company.zhaopin.com/CC">智联招聘(zhaopin.com)</option>
+				<option value="inurl:jobs.51job.com/all/co" selected="selected">前程无忧</option>
+				<option value="inurl:company.zhaopin.com/CC">智联招聘</option>
 			</select>
 			<select title="选择地点" class="xiala2" id="city" onchange="citySet()">
 				<option value="" selected="selected">全国</option>
@@ -81,12 +88,8 @@
 	
 	
 	
-	
-	
-	
-	
 	<div style="margin-top:300px">
-	 <p>如有问题，请联系我！邮箱：lihengdao@126.com</p>
+	 <p>如有问题，请联系我！</p>
 	</div>
 	
 	
